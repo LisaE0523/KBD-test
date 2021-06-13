@@ -1,0 +1,998 @@
+.fontB12{ font-family:"ProximaNovaABold",sans-serif;  font-size: 12px; color:#001D34;}
+.fontB14{ font-family:"ProximaNovaABold",sans-serif;  font-size: 14px; color:#001D34;}
+.fontB18{ font-family:"ProximaNovaABold",sans-serif;  font-size: 18px; color:#001D34;}
+.fontB21{ font-family:"ProximaNovaABold",sans-serif;  font-size: 21px; color:#001D34;}
+
+.fontR14{ font-family: "ProximaNovaA", sans-serif; font-size:14px; color:#001D34;}
+.fontR16{ font-family: "ProximaNovaA", sans-serif; font-size:16px; color:#001D34;}
+.fontR24{ font-family: "ProximaNovaA", sans-serif; font-size:24px; color:#001D34;}
+
+.fontSB16{ font-family:'ProximaNovaASemibold',sans-serif; font-size:16px; color:#001D34;}
+
+.fontXB32{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:32px; color:#001d34;}
+.fontXB48{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:48px; color:#001d34;}
+
+#aboveFold{ 
+margin:auto; 
+background-color:#0d3b5b; 
+width:1440px; 
+height:768px; 
+padding: 40px 100px 40px 120px;
+background-image:url(../SCurve/MidBlue.png);
+background-repeat: no-repeat;
+background-position: left  top -440px;
+}
+.logo{ 
+	width:159px; 
+	height: 44px;
+}
+.mainLogo{ 
+background-image: url(../logo/main/white.svg); 
+background-repeat: no-repeat; 
+background-size: 159px 45px; 
+width:159px; 
+height:44px;
+float:left;
+ }
+ #nav{ display:flex;} 
+#nav-sm{ display:none;}
+ul.mainNav{ list-style:none; padding:10px 0px 10px 0px;  overflow:hidden; float:right;}
+ul.mainNav li{letter-spacing:.04em; display:inline; color:#fff;}
+ul.mainNav li a {
+  padding: 0px 0px 0px 24px;
+  text-decoration: none; 
+  display:inline;
+  color: #FFF; 
+}
+ul.mainNav li a:hover{ color: #f5f5f7;}
+#aboveFold .content{
+	width:669px;
+	height:369px;
+	margin:100px 0px 0px 0px;
+	position:inherit;
+	color:#FFF;
+	}
+#aboveFold h1{
+	width: 658px;
+	line-height:52px;
+	letter-spacing:-10%;
+	text-align:left;
+	color:#FFF;
+	}
+#aboveFold p{
+	line-height:32px;
+	letter-spacing:.01em;
+	position:relative;
+	margin: 20px 0px 56px 0px;
+	color: #fff;
+	text-align:left;
+	width: 669x;
+	height:148; 
+	overflow:hidden;}
+	
+#aboveFold .btn-outline-example{ 
+width:192px; 
+height:40px; 
+background-color:transparent; 
+border:1px solid #fff; 
+color:#fff; 
+position:relative;
+ }
+#aboveFold .btn-outline-example:hover{ 
+background-color:#fff; 
+color:#0d3b5b;
+}
+
+#belowFoldContainer{
+	width:100%; 
+	margin:0 auto; 
+	vertical-align:middle;
+	text-align:center;	  
+}
+.bk{
+	margin:auto;
+	width:1440px;
+	background-color:#fff;
+	}
+.aboutContainer{
+	margin:auto;
+	width:100%;
+	height:639px;
+	background-image:url(../images/about/SF.png);
+	background-repeat: no-repeat;
+	background-position: left 120px center;
+	padding:145px 0px 0px 630px;
+	}
+.aboutContainer .aboutTxtBox h2 h4 p{
+	color: #001D34;}	
+.aboutContainer .aboutTxtBox{
+	width:690px;
+	height:348px;
+	background-color:#f4f4f6;
+	color:#001D34;
+	padding:65px 104px 65px 105px;
+	text-align:left;
+	}
+ .aboutTxtBox h2{  letter-spacing:-0.512px; line-height:40px;}
+ .aboutTxtBox h4{  letter-spacing:0.352px; line-height:20px;}
+ .aboutTxtBox p{ letter-spacing:-0.050px; line-height:24px; width:481px}	
+
+ .empContainer{
+	width:1200px; 
+	height:auto;
+	top:0;
+	left:0;
+	margin: 160px 0px 0px 120px;
+	background-color:#fff;
+	} 
+.empBox{
+	width:400px;
+	height:480px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0px -2px 0px -2px;
+	left:0;
+	padding:0;
+	color:#0d3b5b;
+	}
+.empPhotoBox{
+	width: 100%;
+	height: 400px;
+	margin:auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border: 1px solid #ececec;}	
+.empName{
+	letter-spacing:0.352px;
+	display: block;
+	}
+.empTitle{
+	display: block;
+	}
+
+
+.contactBox{
+	float:left;
+	z-index: 2;
+	width:690px;
+	height:600px;
+	top:0;
+	left:0;
+	background-color:#fff;
+	color:#001D34;
+	padding:100px 0px 0px 104px;
+	text-align:left;
+	border:2px solid #969696;
+}	
+.contactBox h3{ 
+	letter-spacing:0.352px;
+	margin:0px 0px 45px 0px;
+}
+
+.contactBox .addr{
+	margin: 14px 0px 50px 0px;
+	line-height: 1.6em;
+}
+.contactBox .phone{ 
+	margin: 14px 0px 45px 0px;
+}
+.contactBox .phone a{
+	text-decoration: none;
+	color:#001d34;
+}
+.contact .social img{
+	margin:0px 28px 130px 0px;
+	width:32px;
+	height: 32px;
+}
+.mapBox{
+	width:690px;
+	height: 596px;
+	overflow: hidden;
+	margin: 84px 0px 0px 508px;
+	position:absolute;
+	z-index: 3;
+
+}
+
+#footerContainer{
+	width:1440px; 
+	height:225px;
+	margin:0 auto;
+	padding: 80px 0px 0px 120px; 
+	vertical-align:middle; 
+	background-color:#f5f5f7; 
+	color:#001d34;
+	}
+
+	.colSocial{ width:100%; vertical-align: middle; text-align: left;} 
+	.colL{width:45%; display:inline-block; vertical-align: middle; text-align: left;}  
+	.colR{width:45%; display:inline-block; vertical-align: middle; }  
+
+#footerContainer .social img{
+		margin:0px 11px 22px 0px;
+		width:32px;
+		height: 32px;
+	}
+.terms a{
+	text-decoration: none;
+	color:#001D34;
+ }	
+.footer-nav{
+	text-align: right;
+	margin:0px 122px 0px 0px;	
+}
+.footer-nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	margin:0px 0px 0px 15px;
+	color:#001D34;
+}	
+
+/* ######################################################################################################################*/
+@media screen and (min-width:1024px) and (max-width:1400px){
+
+	.fontB18{ font-family:"ProximaNovaABold",sans-serif;  font-size: 16px; color:#001D34;}
+	.fontB21{ font-family:"ProximaNovaABold",sans-serif;  font-size: 19px; color:#001D34;}
+	
+	.fontR14{ font-family: "ProximaNovaA", sans-serif; font-size:12px; color:#001D34;}
+	.fontR24{ font-family: "ProximaNovaA", sans-serif; font-size:20px; color:#001D34;}
+	
+	.fontXB32{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:22px; color:#001d34;}
+	.fontXB48{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:40px; color:#001d34;}
+	
+	
+	#aboveFold{ 
+	margin:auto; 
+	background-color:#0d3b5b; 
+	width:100%; 
+	height:734px; 
+	padding: 40px 100px 40px 120px;
+	background-image:url(../SCurve/MidBlue.png);
+	background-repeat: no-repeat;
+	background-position: left  top -440px;
+	}
+	.logo{ 
+		width:140px; 
+		height: 39px;
+	}
+	.mainLogo{ 
+	background-image: url(../logo/main/white.svg); 
+	background-repeat: no-repeat; 
+	background-size: 140px 39px; 
+	width:140px; 
+	height:39px;
+	float:left;
+	 }
+	 #nav{ display:flex;} 
+	 #nav-sm{ display:none;}
+
+	ul.mainNav{ list-style:none; padding:10px 0px 10px 0px;  overflow:hidden; float:right;}
+	ul.mainNav li{letter-spacing:.04em; display:inline; color:#fff;}
+	ul.mainNav li a {
+	  padding: 0px 0px 0px 24px;
+	  text-decoration: none; 
+	  display:inline;
+	  color: #FFF; 
+	}
+	ul.mainNav li a:hover{ color: #f5f5f7;}
+	#aboveFold .content{
+		width:669px;
+		height:369px;
+		margin:100px 0px 0px 0px;
+		position:inherit;
+		color:#FFF;
+		}
+	#aboveFold h1{
+		width: 658px;
+		line-height:48px;
+		letter-spacing:-10%;
+		text-align:left;
+		color:#FFF;
+		}
+	#aboveFold p{
+		line-height:32px;
+		letter-spacing:.01em;
+		position:relative;
+		margin: 20px 0px 56px 0px;
+		color: #fff;
+		text-align:left;
+		width: auto;
+		height:auto; 
+		}
+		
+	#aboveFold .btn-outline-example{ 
+	width:192px; 
+	height:40px; 
+	background-color:transparent; 
+	border:1px solid #fff; 
+	color:#fff; 
+	position:relative;
+	 }
+	#aboveFold .btn-outline-example:hover{ 
+	background-color:#fff; 
+	color:#0d3b5b;
+	}
+	
+	#belowFoldContainer{
+		width:100%; 
+		margin:0 auto; 
+		vertical-align:middle;
+		text-align:center;	  
+	}
+	.bk{
+		margin:auto;
+		width:100%;
+		background-color:#fff;
+		left:0;
+		}
+	.aboutContainer{
+		margin:auto;
+		width:100%;
+		height:auto;
+		background-image:url(../images/about/SF.png);
+		background-repeat: no-repeat;
+		background-size:70%;
+		background-position: left 10% top 22%;
+		padding:15% 0px 15% 20%;
+		}
+	.aboutContainer .aboutTxtBox h2 h4 p{
+		color: #001D34;}	
+	.aboutContainer .aboutTxtBox{
+		width:70%;
+		left:0;
+		height:auto;
+		background-color:#f4f4f6;
+		color:#001D34;
+		padding:65px 104px 65px 105px;
+		text-align:left;
+		}
+	
+	 
+	 .aboutTxtBox p{ letter-spacing:-0.050px; line-height:24px; width:95%;}	
+	 
+	 .empContainer{
+		width:90%;
+		height:auto;
+		float:left;
+		margin: 160px 20px 200px 80px;
+		background-color: #fff;
+		}
+	
+	.empBox{
+		width:33%;
+		height:auto;
+		position: relative;
+		display:inline-block;
+		vertical-align:top;
+		margin:0px -2px 0px -2px;
+		left:0;
+		padding-bottom:36px;
+		color:#0d3b5b;
+		}
+	.empPhotoBox{
+		width: 100%;
+		height: 390px;
+		margin:auto;
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		border: 1px solid #ececec;}	
+		
+	.empName{
+		letter-spacing:0.352px;
+		display: block;
+		}
+	.empTitle{
+		display: block;
+		}
+	
+	
+	.contactBox{
+		float:left;
+		z-index: 2;
+		width:590px;
+		height:500px;
+		top:0;
+		left:0;
+		background-color:#fff;
+		color:#001D34;
+		padding:80px 0px 0px 80px;
+		text-align:left;
+		border:2px solid #969696;
+	}	
+	.contactBox h3{ 
+		letter-spacing:0.352px;
+		margin:0px 0px 45px 0px;
+	}
+	
+	.contactBox .addr{
+		margin: 14px 0px 50px 0px;
+		line-height: 1.6em;
+	}
+	.contactBox .phone{ 
+		margin: 14px 0px 45px 0px;
+	}
+	.contactBox .phone a{
+		text-decoration: none;
+		color:#001d34;
+	}
+	.contact .social img{
+		margin:0px 28px 130px 0px;
+		width:32px;
+		height: 32px;
+	}
+	.mapBox{
+		width:480px;
+		height: 480px;
+		overflow: hidden;
+		margin: 84px 0px 0px 35%;
+		position:absolute;
+		z-index: 3;
+	
+	}
+	
+	#footerContainer{
+		width:100%; 
+		height:225px;
+		margin:0 auto;
+		padding: 80px 0px 0px 120px; 
+		vertical-align:middle; 
+		background-color:#f5f5f7; 
+		color:#001d34;
+		}
+	
+	.colL{width:45%; right:0; position:absolute; display: inline-block;  vertical-align: middle;  text-align:right; }  
+	.colR{width:45%; position:absolute; display: inline-block; vertical-align: middle; }  
+	
+	#footerContainer .social img{
+			margin:0px 11px 22px 0px;
+			width:32px;
+			height: 32px;
+		}
+	.terms a{
+		text-decoration: none;
+		color:#001D34;
+	 }	
+	.footer-nav{
+		text-align: right;
+		margin:0px 122px 0px 0px;	
+	}
+	.footer-nav a{
+		text-transform: uppercase;
+		text-decoration: none;
+		margin:0px 0px 0px 15px;
+		color:#001D34;
+	}
+	
+	
+
+}
+/* ######################################################################################################################*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+  .fontB18{ font-family:"ProximaNovaABold",sans-serif;  font-size: 16px; color:#001D34;}
+  .fontB21{ font-family:"ProximaNovaABold",sans-serif;  font-size: 19px; color:#001D34;}
+  
+  .fontR14{ font-family: "ProximaNovaA", sans-serif; font-size:12px; color:#001D34;}
+  .fontR16{ font-family: "ProximaNovaA", sans-serif; font-size:15px; color:#001D34;}
+  .fontR24{ font-family: "ProximaNovaA", sans-serif; font-size:20px; color:#001D34;}
+  
+  .fontSB16{ font-family:'ProximaNovaASemibold',sans-serif; font-size:13px; color:#001D34;}
+  
+  .fontXB32{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:22px; color:#001d34;}
+  .fontXB48{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:32px; color:#001d34;}
+  
+
+  #aboveFold{ 
+  margin:auto; 
+  background-color:#0d3b5b; 
+  width:100%; 
+  height:650px; 
+  padding: 40px 80px 30px 80px;
+  background-image:url(../SCurve/MidBlue.png);
+  background-repeat: no-repeat;
+  background-position: left  top -540px;
+  }
+  .logo{ 
+	  width:120px; 
+	  height: 36px;
+  }
+  .mainLogo{ 
+  background-image: url(../logo/main/white.svg); 
+  background-repeat: no-repeat; 
+  background-size: 120px 36px; 
+  width:120px; 
+  height:36px;
+  float:left;
+   }
+  #nav{ display:flex;} 
+  #nav-sm{ display:none;}
+
+  ul.mainNav{ list-style:none; padding:10px 0px 0px 14px;   float:right; }
+  ul.mainNav li{letter-spacing:normal; display:inline; color:#fff; padding:0px 4px;}
+  ul.mainNav li a {
+	padding: 0px;
+	font-size: 1.2em;
+	text-decoration: none; 
+	display:inline;
+	color: #FFF; 
+  }
+  ul.mainNav li a:hover{ color: #f5f5f7;}
+  #aboveFold .content{
+	  width:92%;
+	  height:369px;
+	  margin:100px 0px 0px 0px;
+	  position:inherit;
+	  color:#FFF;
+	  }
+  #aboveFold h1{
+	  width: 658px;
+	  line-height:36px;
+	  letter-spacing:-10%;
+	  text-align:left;
+	  color:#FFF;
+	  }
+  #aboveFold p{
+	  line-height:28px;
+	  letter-spacing:.01em;
+	  position:relative;
+	  margin: 20px 0px 46px 0px;
+	  color: #fff;
+	  text-align:left;
+	  width: auto;
+	  height:auto; 
+	  }
+	  
+  #aboveFold .btn-outline-example{ 
+  width:192px; 
+  height:40px; 
+  background-color:transparent; 
+  border:1px solid #fff; 
+  color:#fff; 
+  position:relative;
+   }
+  #aboveFold .btn-outline-example:hover{ 
+  background-color:#fff; 
+  color:#0d3b5b;
+  }
+  
+  #belowFoldContainer{
+	  width:100%; 
+	  margin:0 auto; 
+	  vertical-align:middle;
+	  text-align:center;	  
+  }
+  .bk{
+	  margin:auto;
+	  width:100%;
+	  background-color:#fff;
+	  left:0;
+	  }
+  .aboutContainer{
+	  margin:auto;
+	  width:100%;
+	  height:auto;
+	  background-image:url(../images/about/SF.png);
+	  background-repeat: no-repeat;
+	  background-size:70%;
+	  background-position: left 10% top 12%;
+	  padding:10% 0px 10% 15%;
+	  }
+  .aboutContainer .aboutTxtBox h2 h4 p{
+	  color: #001D34;}	
+  .aboutContainer .aboutTxtBox{
+	  width:70%;
+	  left:0;
+	  height:auto;
+	  background-color:#f4f4f6;
+	  color:#001D34;
+	  padding:65px 104px 65px 105px;
+	  text-align:left;
+	  }
+   
+   
+   .aboutTxtBox p{ letter-spacing:-0.050px; line-height:24px; width:95%;}	
+   
+   .empContainer{
+	  width:89%;
+	  height:auto;
+	  float:left;
+	  margin: 140px 20px 200px 80px;
+	  background-color: #fff;
+	  }
+  
+  .empBox{
+	  width:30%;
+	  height:auto;
+	  position: relative;
+	  display:inline-block;
+	  vertical-align:top;
+	  margin:0px -4px 0px -4px;
+	  left:0;
+	  padding-bottom:36px;
+	  color:#0d3b5b;
+	  }
+  .empPhotoBox{
+	  width: 99%;
+	  height: 380px;
+	  margin:auto;
+	  background-repeat: no-repeat;
+	  background-position: center bottom;
+	  border: 1px solid #ececec;
+	overflow:hidden;}	
+	  
+  .empName{
+	  letter-spacing:0.352px;
+	  display: block;
+	  }
+  .empTitle{
+	  display: block;
+	  }
+  
+  
+  .contactBox{
+	  float:left;
+	  z-index: 2;
+	  width:480px;
+	  height:480px;
+	  top:0;
+	  left:0;
+	  background-color:#fff;
+	  color:#001D34;
+	  padding:50px 0px 0px 50px;
+	  text-align:left;
+	  border:2px solid #969696;
+  }	
+  .contactBox h3{ 
+	  letter-spacing:0.352px;
+	  margin:0px 0px 45px 0px;
+  }
+  
+  .contactBox .addr{
+	  margin: 14px 0px 50px 0px;
+	  line-height: 1.6em;
+  }
+  .contactBox .phone{ 
+	  margin: 14px 0px 45px 0px;
+  }
+  .contactBox .phone a{
+	  text-decoration: none;
+	  color:#001d34;
+  }
+  .contact .social img{
+	  margin:0px 28px 130px 0px;
+	  width:32px;
+	  height: 32px;
+  }
+  .mapBox{
+	  width:400px;
+	  height: 400px;
+	  overflow: hidden;
+	  margin: 125px 0px 0px 32%;
+	  position:absolute;
+	  z-index: 3;
+  
+  }
+  
+  #footerContainer{
+	  width:100%; 
+	  height:225px;
+	  margin:0 auto;
+	  left:0;
+	  text-align: left;
+	  padding: 70px 0px 0px 100px; 
+	  vertical-align:middle; 
+	  background-color:#f5f5f7; 
+	  color:#001d34;
+	}
+
+  .colL{width:80%; position: absolute; display: inline-block;   vertical-align: middle;  text-align: right;}  
+  .colR{width:80%;  position: absolute; display: inline-block;  vertical-align: middle; margin-top:2px; text-align: left;} 
+ 
+  
+
+  #footerContainer .social img{
+		  margin:0px 11px 12px 0px;
+		  width:32px;
+		  height: 32px;
+	  }
+  .colL .terms a{
+	  text-decoration: none;
+	  color:#001D34;
+   }	
+  .colR .footer-nav{
+	  text-align: center;
+	  margin:0px 122px 0px 0px;	
+  }
+  .footer-nav a{
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  margin:0px 0px 0px 18px;
+	  color:#001D34;
+  }
+	
+
+}
+/* ######################################################################################################################*/
+@media screen and (max-width:767px){
+  
+  .fontB14{ font-family:"ProximaNovaABold",sans-serif;  font-size: 12px; color:#001D34;}
+  .fontB18{ font-family:"ProximaNovaABold",sans-serif;  font-size: 14px; color:#001D34;}
+  .fontB21{ font-family:"ProximaNovaABold",sans-serif;  font-size: 17px; color:#001D34;}
+  
+  .fontR14{ font-family: "ProximaNovaA", sans-serif; font-size:11px; color:#001D34;}
+  .fontR16{ font-family: "ProximaNovaA", sans-serif; font-size:13px; color:#001D34;}
+  .fontR24{ font-family: "ProximaNovaA", sans-serif; font-size:18px; color:#001D34;}
+  
+  .fontXB32{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:20px; color:#001d34;}
+  .fontXB48{ font-family:"ProximaNovaAExtrabold", sans-serif; font-size:26px; color:#001d34;}
+
+ 
+  .headers{ padding:0px; width:99%; margin:0 auto; height: 100px; background-color: #0d3b5b; }
+  .sticky{  width:100%; margin:auto; z-index: 10; padding:20px 20px 20px 30px;}
+  .sticky + .container-fluid{
+	padding-top:142px;
+}
+
+#header ul.mainNav{ list-style:none; width:100%; padding:0px;  display:inline-block; text-align: center;  }
+#header ul.mainNav li{letter-spacing:normal; display:inline-block; color:#fff; padding:0px 14px 12px 14px; margin:0px 12px 2px 12px;}
+#header ul.mainNav li a {
+  padding: 0px;
+  width:45%;
+  text-decoration: none; 
+  display:block;
+  color: #FFF; 
+
+}
+#header ul.mainNav li a:hover{ color: #f5f5f7;}
+
+.col{width:100%; display:block;}
+
+  #aboveFold{ 
+  margin:auto; 
+  background-color:#0d3b5b; 
+  width:100%; 
+  height:650px; 
+  padding: 0px 10px 40px 40px;
+  background-image:url(../SCurve/MidBlue.png);
+  background-repeat: no-repeat;
+  background-position: left  top -840px;
+  }
+  .logo{ 
+	  width:130px; 
+	  height: 39px;
+  }
+  .mainLogo{ 
+  background-image: url(../logo/main/white.svg); 
+  background-repeat: no-repeat; 
+  background-size: 130px 39px; 
+  width:130px; 
+  height:39px;
+  
+   }
+  
+  #nav{display:none; visibility: hidden;}
+  #nav-sm{display:flex; margin:0 auto;}
+
+  ul.mainNav{ list-style:none; padding:0px 10px 0px 0px;  vertical-align: middle;   }
+  ul.mainNav li{letter-spacing:normal; display:inline; color:#fff; padding:0px 4px;}
+  ul.mainNav li a {
+	padding: 0px;
+	text-decoration: none; 
+	display:inline;
+	color: #FFF; 
+  }
+  ul.mainNav li a:hover{ color: #f5f5f7;}
+
+  #aboveFold .content{
+	  width:100%;
+	  height:369px;
+	  margin:50px 0px 0px 0px;
+	  position:inherit;
+	  color:#FFF;
+	  padding-bottom:auto;
+	  }
+  #aboveFold h1{
+	  width: 658px;
+	  line-height:26px;
+	  letter-spacing:-5%;
+	  text-align:left;
+	  color:#FFF;
+	  }
+  #aboveFold p{
+	  width:90%;
+	  line-height:28px;
+	  letter-spacing:.01em;
+	  position:relative;
+	  margin: 20px 0px 46px 0px;
+	  color: #fff;
+	  text-align:left;
+	  width: auto;
+	  height:auto; 
+	  }
+	  
+  #aboveFold .btn-outline-example{ 
+  width:192px; 
+  height:40px; 
+  background-color:transparent; 
+  border:1px solid #fff; 
+  color:#fff; 
+  position:relative;
+   }
+  #aboveFold .btn-outline-example:hover{ 
+  background-color:#fff; 
+  color:#0d3b5b;
+  }
+  
+  #belowFoldContainer{
+	  width:100%; 
+	  margin:0 auto; 
+	  vertical-align:middle;
+	  text-align:center;	  
+  }
+  .bk{
+	  margin:auto;
+	  width:100%;
+	  background-color:#fff;
+	  left:0;
+	  }
+  .aboutContainer{
+	  margin:auto;
+	  width:100%;
+	  height:auto;
+	  display:block;
+	  background-image:url(../images/about/SF.png);
+	  background-repeat: no-repeat;
+	  background-size: auto;
+	  background-position: left 10% top 20%;
+	  padding:10% 0px 10% 15%;
+	  }
+  .aboutContainer .aboutTxtBox h2 h4 p{
+	  color: #001D34;}	
+  .aboutContainer .aboutTxtBox{
+	  width:70%;
+	  left:0;
+	  height:auto;
+	  background-color:#f4f4f6;
+	  color:#001D34;
+	  padding:25px;
+	  text-align:left;
+	  }
+  
+   .aboutTxtBox p{ letter-spacing:-0.050px; line-height:24px; width:95%;}	
+   
+   .empContainer{
+	  width:89%;
+	  height:auto;
+	  float:left;
+	  margin: 140px 20px 200px 20px;
+	  background-color: #fff;
+	  }
+  
+  .empBox{
+	  width:50%;
+	  height:auto;
+	  position: relative;
+	  display:inline-block;
+	  vertical-align:top;
+	  margin:0px -4px 0px -4px;
+	  left:0;
+	  padding-bottom:36px;
+	  color:#0d3b5b;
+	  }
+  .empPhotoBox{
+	  width: 99%;
+	  height: 238px;
+	  margin:auto;
+	  background-repeat: no-repeat;
+	  background-size:80%;
+	  background-position: center top;
+	  border: 1px solid #ececec;
+	overflow:hidden;}	
+	  
+  .empName{
+	  letter-spacing:0.352px;
+	  display: block;
+	  }
+  .empTitle{
+	  display: block;
+	  }
+    
+  .contactBox{
+	  display: block;
+	  width:100%;
+	  height:auto;
+	  top:0;
+	  left:0;
+	  background-color:#fff;
+	  color:#001D34;
+	  padding:20px 45px;
+	  text-align:left;
+	  border:2px solid #969696;
+	  margin-bottom:30px;
+  }	
+  .contactBox h3{ 
+	  letter-spacing:0.352px;
+	  margin:0px 0px 45px 0px;
+  }
+  
+  .contactBox .addr{
+	  margin: 14px 0px 50px 0px;
+	  line-height: 1.6em;
+  }
+  .contactBox .phone{ 
+	  margin: 14px 0px 45px 0px;
+  }
+  .contactBox .phone a{
+	  text-decoration: none;
+	  color:#001d34;
+  }
+  .contact .social img{
+	  margin:0px 28px 0px 0px;
+	  width:32px;
+	  height: 32px;
+  }
+  .mapBox{
+	  margin: 0 auto;
+	  width:300px;
+	  height: 300px;
+	  overflow: hidden;
+	  position: inherit;
+	  display:block;
+	  }
+
+
+ #footerContainer{
+	  width:100%; 
+	  height:225px;
+	  margin:0 auto;
+	  padding: 0px 0px 0px 40px; 
+	  vertical-align:top; 
+	  background-color:#f5f5f7; 
+	  color:#001d34;
+	 
+	  }
+
+  #footerContainer	.colSocial{ 
+	  width:80%; 
+	  height: auto;
+	  vertical-align: middle; 
+	  text-align: center; 
+	} 
+   #footerContainer .social img{
+		  margin:0px 11px 12px 0px;
+		  width:32px;
+		  height:32px;
+		  display: inline;
+	  }
+
+	.colL{width:100%; position: absolute; display: inline-block;   vertical-align: middle;  text-align: center;}  
+	.colR{width:80%;  position: absolute; display: inline-block;  vertical-align: middle; margin-top:50px; text-align: center;} 
+		 
+	.terms{width:90%;
+	margin-bottom:22px;}	  
+   
+	.terms a{
+	  text-decoration: none;
+	  color:#001D34; 
+   }	
+  .footer-nav{
+	  text-align: center;
+	  margin:0px 0px 0px 0px;	
+	  display: block;
+  }
+  .footer-nav a{
+	  width:100%;
+	  font-size:14px;
+	  position: relative;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  margin:30px 30px 0px 0px;
+	  padding:20px 20px 0px 0px;
+	  color:#001D34;
+	  display: inline; 
+	  
+  }
+	
+
+}

@@ -1,0 +1,64 @@
+@font-face{
+    font-family: "ProximaNovaBlackI";
+    src: url("../fonts/Proxima Nova A Black It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaABlack";
+    src: url("../fonts/Proxima Nova A Black.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaABoldIt";
+    src: url("../fonts/Proxima Nova A Bold It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaABold";
+    src: url("../fonts/Proxima Nova A Bold.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAExtraboldIt";
+    src: url("../fonts/Proxima Nova A Extrabold It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAExtrabold";
+    src: url("../fonts/Proxima Nova A Extrabold.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAIt";
+    src: url("../fonts/Proxima Nova A It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaALightIt";
+    src: url("../fonts/Proxima Nova A Light It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaALight";
+    src: url("../fonts/Proxima Nova A Light.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAMediumIt";
+    src: url("../fonts/Proxima Nova A Medium It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAMedium";
+    src: url("../fonts/Proxima Nova A Medium.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaASemiboldIt";
+    src: url("../fonts/Proxima Nova A Semibold It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaASemibold";
+    src: url("../fonts/Proxima Nova A Semibold.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAThinIt";
+    src: url("../fonts/Proxima Nova A Thin It.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaAThin";
+    src: url("../fonts/Proxima Nova A Thin.otf") format("opentype");
+    }
+    @font-face{
+    font-family: "ProximaNovaA";
+    src: url("../fonts/Proxima Nova A.otf") format("opentype");
+    }
