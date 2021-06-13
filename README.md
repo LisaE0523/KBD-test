@@ -22,7 +22,6 @@ Thank you so much for your patience, and I look forward to your reply!
 Best, 
 Shahla
 /*#######################################################*/
-/*#######################################################*/
 Comp notes:
 PhotoPea did not load font family as it should display.
 Did use font size as described from sketch file.
@@ -43,7 +42,7 @@ Company logos have no colors touching.  The test instructions stated no touching
 Embedding Google map – very easy and coded to fit each breakpoint.  
 Minor differences from full screen design to the four different breakpoints.  On the smallest, the company section had to be put into block, as we want the map readable for the user. 
 
-Did include icon files as well as common OG tags and meta tags. Whereas the metatags essentially play no role in SEO, it is a good practice to create for each page, as it does provide an overview/scope of the SEO for that page. 
+Did include icon files as well as common OG tags and meta tags. Whereas the metatags essentially play no role in SEO, it is a good practice to create for each page, as it does provide an overview/scope of the SEO for that page. I included the caniconal tag, however, just used a php server self.  Tag provides importance and should be included. Had this been a dev site going to production - this would need to be udpated.
 
 Also, note, no sitemap.xml or robots file created. 
 Please let me know if there are any other requests – I will be more than happy to accommodate!
